@@ -25,68 +25,68 @@ const page = () => {
       </Section>
 
       <div className="bg-white px-10 py-20">
-      <Section>
-        <div className="grid max-mobile-xl:grid-cols-1 mobile-xl:grid-cols-1 max-tablet:place-items-center tablet:grid-cols-2 tablet-l:grid-cols-3">
-          <div
-          >
-            <div className={"space-y-5"}>
-              <p className={"text-primary font-bold justify-start "}>
-                End-to-end digital product development experts.
-              </p>
+        <Section>
+          <div className="grid max-mobile-xl:grid-cols-1 mobile-xl:grid-cols-1 max-tablet:place-items-center tablet:grid-cols-2 tablet-l:grid-cols-3">
+            <div>
+              <div className={"space-y-5"}>
+                <p className={"text-primary font-bold justify-start "}>
+                  End-to-end digital product development experts.
+                </p>
 
-              <h1 className={"max-md:text-3xl text-5xl"}>
-                Transforming Ideas into Powerful Digital Products
-              </h1>
+                <h1 className={"max-md:text-3xl text-5xl"}>
+                  Transforming Ideas into Powerful Digital Products
+                </h1>
 
-              <p className={"text-gray-400 max-w-[30rem]"}>
-                Our team specializes in building high-performance websites, web
-                applications, and mobile apps that drive innovation and digital
-                transformation. From concept to launch, we offer end-to-end
-                solutions that include product design, development, testing,
-                deployment, and ongoing maintenance.
-              </p>
-            </div>
-          </div>
-
-          <div className="px-10 gap-7 place-content-evenly">
-            <Image src={image.teamTwo} alt={"about img"} />
-          </div>
-
-          <div className={"space-y-7"}>
-            <div className={"space-y-5"}>
-              <p className={"text-primary font-bold justify-start"}>
-                Real-world experience for future innovators.
-              </p>
-
-              <p className={"text-gray-400 max-w-[30rem]"}>
-                At Enforca, we are passionate about nurturing the next
-                generation of tech talent. We offer structured internship and
-                SIWES programs for students, as well as real-world project
-                opportunities for developers, product managers, and product
-                designers. By working on live projects, participants gain
-                practical experience, build their portfolios, and grow their
-                professional skills in a collaborative and supportive
-                environment.
-              </p>
+                <p className={"text-gray-400 max-w-[30rem]"}>
+                  Our team specializes in building high-performance websites,
+                  web applications, and mobile apps that drive innovation and
+                  digital transformation. From concept to launch, we offer
+                  end-to-end solutions that include product design, development,
+                  testing, deployment, and ongoing maintenance.
+                </p>
+              </div>
             </div>
 
-            <div className={"space-y-3"}>
-              <p className={"text-primary font-bold justify-start"}>
-                Building ideas. Empowering future innovators.
-              </p>
+            <div className="px-10 gap-7 place-content-evenly">
+              <Image src={image.teamTwo} alt={"about img"} />
+            </div>
 
-              <p className={"text-gray-400 max-w-[30rem]"}>
-                Whether you're a business looking to bring your digital ideas to
-                life or a tech enthusiast eager to gain hands-on experience,
-                Enforca Technologies is your trusted partner in innovation.
-              </p>
+            <div className={"space-y-7"}>
+              <div className={"space-y-5"}>
+                <p className={"text-primary font-bold justify-start"}>
+                  Real-world experience for future innovators.
+                </p>
+
+                <p className={"text-gray-400 max-w-[30rem]"}>
+                  At Enforca, we are passionate about nurturing the next
+                  generation of tech talent. We offer structured internship and
+                  SIWES programs for students, as well as real-world project
+                  opportunities for developers, product managers, and product
+                  designers. By working on live projects, participants gain
+                  practical experience, build their portfolios, and grow their
+                  professional skills in a collaborative and supportive
+                  environment.
+                </p>
+              </div>
+
+              <div className={"space-y-3"}>
+                <p className={"text-primary font-bold justify-start"}>
+                  Building ideas. Empowering future innovators.
+                </p>
+
+                <p className={"text-gray-400 max-w-[30rem]"}>
+                  Whether you&apos;re a business looking to bring your digital ideas
+                  to life or a tech enthusiast eager to gain hands-on
+                  experience, Enforca Technologies is your trusted partner in
+                  innovation.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </Section>
+        </Section>
       </div>
     </div>
-  );
+  )
 };
 
 export default page;
