@@ -60,7 +60,7 @@ const Success = () => {
               <div className={"space-x-2"}>
                 <span className={"blue-box"} />
                 <li className={"text-gray-500 text-md"}>
-                  14+ developers actively engaged in client projects across
+                  Developers actively engaged in client projects across
                   multiple industries, with our team expanding each month.
                 </li>
               </div>
@@ -68,7 +68,7 @@ const Success = () => {
               <div className={"space-x-2"}>
                 <span className={"blue-box"} />
                 <li className={"text-gray-500 text-md"}>
-                  4 developers dedicated to building and maintaining
+                  Developers dedicated to building and maintaining
                   open-source, high-impact solutions that contribute to the
                   global tech community.
                 </li>

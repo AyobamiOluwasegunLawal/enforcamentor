@@ -57,7 +57,7 @@ export const services = [
     {
         id: nanoid(),
         icon: <FaPeopleGroup className={'size-6'}/>,
-        title: "FIntech product",
+        title: "Fintech product",
         description: "Manage teams of best talent"
     },
 
@@ -72,7 +72,7 @@ export const services = [
 export const testimonials = [
     {
         id: nanoid(),
-        client: "Adiola",
+        client: "Adeola",
         comment:"I currently work as an MI analyst with KIOX. With a lot of hard work, dedication, consistency and allowing Mentor techies hold my hands all through the journey of my job search I was able to get my dream job within few months of joining Mentor techies in the uk.",
         star:"⭐⭐⭐⭐⭐",
         location: "Uk"
