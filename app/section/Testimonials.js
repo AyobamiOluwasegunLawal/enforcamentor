@@ -17,7 +17,7 @@ import { Autoplay, Pagination} from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <div className="px-10 py-20">
+    <div className="px-10 py-10">
       <Section>
         <div className="flex-center text-center">
           <SectionInfo
