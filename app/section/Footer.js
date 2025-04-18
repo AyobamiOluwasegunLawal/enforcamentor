@@ -10,7 +10,7 @@ const Footer = () => {
       <Section>
         <footer
           className={
-            "max-w-4xl mx-auto  flex flex-col md:flex-row justify-between"
+            "max-w-4xl mx-auto flex flex-col md:flex-row md:justify-between"
           }
         >
           <div>
@@ -18,7 +18,7 @@ const Footer = () => {
               <Image src={logo.enforca} alt={"logo"} className={"w-50 mb-6"} />
               <div className={"space-y-2"}>
                 <h2 className={"text-gray-400 font-bold "}>
-                  Discover, Develop, Deploy!
+                  Ideate, Build, Launch!
                 </h2>
 
                 <p className={"text-gray-500 text-md max-w-sm"}>
