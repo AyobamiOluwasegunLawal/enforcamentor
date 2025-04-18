@@ -43,8 +43,8 @@ const Hero = () => {
     <div className="relative max-tablet-l:min-h-[calc(100vh-650px)]">
       <Section>
         <div className="px-10 justify-between flex-col tablet:flex-row max-tablet-l:min-h-[calc(100vh-750px)] min-h-[calc(100vh-300px)]">
-          <div className="max-w-lg max-m:w-md max-tablet-l:mt-10">
-            <div className={`space-y-10`}>
+          <div className="max-w-lg max-m:w-md max-tablet-l:mt-10 ">
+            <div className={`space-y-10 max-tablet-l: my-16`}>
               <AnimatePresence mode="wait">
                 <motion.span
                   key={wordIndex} // animate per word
@@ -67,7 +67,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="mt-4">
+            <div className="mt-4 mb-10">
               <Link
                 href={"/contact"}
                 className={
