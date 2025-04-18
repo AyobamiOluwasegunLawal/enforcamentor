@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="px-10">
+    <div className="px-10 py-20">
       <Section>
         <div
           className={
@@ -18,7 +18,7 @@ const page = () => {
               Empowering Talent, Driving Innovation
             </h1>
 
-            <p className={"text-gray-400 text-xl max-w-[50rem] mx-auto"}>
+            <p className={"text-gray-400 text-lg max-w-[50rem] mx-auto"}>
               Enforca Technologies is a global tech enabler committed to
               developing Africa’s next generation of digital professionals. We
               help individuals grow their skills through hands-on experience,

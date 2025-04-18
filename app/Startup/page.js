@@ -5,7 +5,7 @@ import { FaArrowCircleDown } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className="bg-gray-100 py-20">
+    <div className="bg-gray-100 py-20 px-10">
       <Section>
         <div className={"flex-center text-center flex-col gap-10 "}>
           <h1 className={"h1Heading max-w-2xl text-center"}>
