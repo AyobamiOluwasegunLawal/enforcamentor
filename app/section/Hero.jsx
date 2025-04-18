@@ -44,7 +44,7 @@ const Hero = () => {
       <Section>
         <div className="px-10 justify-between flex-col tablet:flex-row max-tablet-l:min-h-[calc(100vh-750px)] min-h-[calc(100vh-300px)]">
           <div className="max-w-lg max-m:w-md max-tablet-l:mt-10 ">
-            <div className={`space-y-10 max-tablet-l: my-16`}>
+            <div className={`space-y-3 max-tablet-l: my-16`}>
               <AnimatePresence mode="wait">
                 <motion.span
                   key={wordIndex} // animate per word
@@ -52,7 +52,7 @@ const Hero = () => {
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="text-xl font-700 text-primary font-700"
+                  className="text-xl font-700 text-primary"
                 >
                   {displayText}
                   <span className="animate-pulse">|</span>
@@ -67,7 +67,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="mt-4 mb-10">
+            <div className="mb-10">
               <Link
                 href={"/contact"}
                 className={

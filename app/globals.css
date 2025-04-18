@@ -61,7 +61,7 @@
   }
 
   .pDesc{
-    @apply font-400 text-xl text-gray-400 max-tablet-l:text-lg max-mobile-l:text-xs
+    @apply font-400 text-xl text-gray-400 max-tablet-l:text-lg max-mobile-xl:text-lg
   }
 
   .h2Heading{
