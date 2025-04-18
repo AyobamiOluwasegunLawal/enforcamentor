@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+  --color-primary: #4031a7;
+  --color-dark: #2b2e48;
+
+  /* breakpoints */
+  --breakpoint-mobile-s: 321px;
+  --breakpoint-mobile-m: 376px;
+  --breakpoint-mobile-l: 426px;
+  --breakpoint-mobile-xl: 601px;
+  --breakpoint-tablet: 769px;
+  --breakpoint-tablet-l: 1101px;
+  
+  /* font family and weight */
+  --font-mont: "Montserrat", sans-serif;
+  --font-weight-200: 200;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+  --font-weight-800: 880;
+
+}
+
+@layer utilities {
+  .flex-center{
+      @apply flex items-center justify-center
+  }
+
+  .items-center{
+    @apply flex items-center
+  }
+
+  .justify-between{
+    @apply flex justify-between items-center
+  }
+
+  .justify-center{
+    @apply flex justify-center
+  }
+
+}
+
+/* @layer base{
+  body{
+    @apply font-mont font-400
+  }
+} */
+
+@layer components{
+  .pTitle{
+    @apply font-700 text-primary max-tablet-l:text-lg text-lg max-mobile-l:text-sm
+  }
+
+  .h1Heading{
+    @apply font-700 text-6xl max-tablet-l:text-4xl max-mobile-l:text-2xl text-dark
+  }
+
+  .pDesc{
+    @apply font-400 text-xl text-gray-400 max-tablet-l:text-lg max-mobile-l:text-xs
+  }
+
+  .h2Heading{
+    @apply font-700 text-4xl max-tablet-l:text-3xl max-mobile-l:text-2xl text-dark
+  }
+
+}
+
