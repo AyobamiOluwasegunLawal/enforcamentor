@@ -27,6 +27,13 @@ export const navLinks = [
 
     {
         id: nanoid(),
+        title: "AI job search",
+        href: "https://enforca.co/",
+        target: "_blank"
+    },
+
+    {
+        id: nanoid(),
         title: "Learn more",
         href: "/MoreInfo"
     },

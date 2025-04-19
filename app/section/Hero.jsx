@@ -81,8 +81,8 @@ const Hero = () => {
         </div>
       </Section>
 
-      <div className="absolute -top-10 right-10 max-tablet-l:hidden w-[720px] h-[720px]">
-        <Image src={image.hero} alt="hero" className="w-full h-full" />
+      <div className="absolute -top-10 right-0 max-tablet-l:hidden w-[800px] h-[800px]">
+        <Image src={image.hero} alt="hero" className="w-full h-full absolute -top-20 right-32" />
       </div>
     </div>
   );
