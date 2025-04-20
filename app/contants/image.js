@@ -1,6 +1,6 @@
 import hero from "../assets/image/hero.jpg";
 import team from "../assets/image/team.jpg";
-import siwes from "../assets/image/siwes.jpg";
+import siwes from "../assets/image/siwesTwo.png";
 import teamTwo from "../assets/image/teamTwo.jpg";
 import hero2 from "../assets/image/hero2.png"
 import hero3 from "../assets/image/hero3.png"
