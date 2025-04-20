@@ -1,12 +1,15 @@
 import React from "react";
 import Section from "../components/Section";
 import SectionInfo from "../components/SectionInfo";
+import Partner from "../assets/logo/partner";
+import logo from "../contants/logo";
+import Image from "next/image";
 
 const Impact = () => {
   return (
     <div className="bg-gray-100 py-20 px-10">
       <Section>
-        <div>
+        <div className="flex flex-col md:flex-row md:gap-20">
           <div>
             <SectionInfo
               sectionPTitle={"Where Quality meets Impact"}
@@ -32,13 +35,18 @@ const Impact = () => {
                 also shaping the future of technology.
               </p>
             </div>
-
-            <p className={"text-primary mb-10 font-bold"}>
-              Learning how we are making this happen
-            </p>
           </div>
 
-          <div></div>
+          <div>
+            <p className={"text-primary mb-10 font-bold"}>
+              Our PATNERS
+            </p>
+
+            <div className="flex gap-10 items-center">
+              <Partner />
+              <Image src={logo.partnerTwo} alt={"siwes"} className="w-32" />
+            </div>
+          </div>
         </div>
       </Section>
     </div>

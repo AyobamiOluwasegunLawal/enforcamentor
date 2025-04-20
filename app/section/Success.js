@@ -39,7 +39,7 @@ const Success = () => {
           </div>
 
           <div className={"basis-1/2"}>
-            <div className={"space-y-5 text-gray-500 text-md mb-30"}>
+            <div className={"space-y-5 text-gray-500 text-md mb-5"}>
               <p>
                 We serve as the bridge between your business goals and
                 world-class tech talent. At Enforca, we are committed to
@@ -57,7 +57,7 @@ const Success = () => {
             </div>
 
             <ul className={"flex flex-col gap-5 mb-20"}>
-              <div className={"space-x-2"}>
+              <div className={"space-x-3 items-center"}>
                 <span className={"blue-box"} />
                 <li className={"text-gray-500 text-md"}>
                   Developers actively engaged in client projects across
@@ -65,7 +65,7 @@ const Success = () => {
                 </li>
               </div>
 
-              <div className={"space-x-2"}>
+              <div className={"space-x-3 items-center"}>
                 <span className={"blue-box"} />
                 <li className={"text-gray-500 text-md"}>
                   Developers dedicated to building and maintaining
@@ -73,6 +73,8 @@ const Success = () => {
                   global tech community.
                 </li>
               </div>
+
+              
             </ul>
           </div>
         </div>

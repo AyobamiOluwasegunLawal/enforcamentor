@@ -80,7 +80,7 @@ export const testimonials = [
     {
         id: nanoid(),
         client: "Adeola",
-        comment:"I currently work as an MI analyst with KIOX. With a lot of hard work, dedication, consistency and allowing Mentor techies hold my hands all through the journey of my job search I was able to get my dream job within few months of joining Mentor techies in the uk.",
+        comment:"I currently work as an MI analyst with KIOX. With a lot of hard work, dedication, consistency and allowing Enforca hold my hands all through the journey of my job search I was able to get my dream job within few months of joining Enforca in the uk.",
         star:"⭐⭐⭐⭐⭐",
         location: "Uk"
     },
@@ -88,7 +88,7 @@ export const testimonials = [
     {
         id: nanoid(),
         client: "Dami",
-        comment:"Mentor Techies has helped me land my current full time job. They provide personalized mentorship and practical skills that made all the difference for me. You're going to be assigned a mentor that is going to look at your career goals and wear your hats and give you personalized roadmap to getting your dream job.",
+        comment:"Enforca has helped me land my current full time job. They provide personalized mentorship and practical skills that made all the difference for me. You're going to be assigned a mentor that is going to look at your career goals and wear your hats and give you personalized roadmap to getting your dream job.",
         star: "⭐⭐⭐⭐⭐",
         location: "UK"
     },
