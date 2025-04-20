@@ -1,4 +1,4 @@
-import hero from "../assets/image/hero.png";
+import hero from "../assets/image/hero.jpg";
 import team from "../assets/image/team.jpg";
 import siwes from "../assets/image/siwes.jpg";
 import teamTwo from "../assets/image/teamTwo.jpg";
