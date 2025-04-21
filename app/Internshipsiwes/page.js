@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="px-10 py-20">
+    <div className="px-10 py-30">
       <Section>
         <div
           className={
@@ -34,7 +34,7 @@ const page = () => {
                 className={"animate-bounce text-primary size-6"}
               />
               <a
-                href="mailto:info@mentor-techies.com"
+                href="mailto:Engineering@enforcatech.com"
                 className={
                   "bg-primary w-fit py-2 px-4 text-white rounded-md"
                 }

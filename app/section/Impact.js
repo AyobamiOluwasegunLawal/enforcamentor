@@ -1,9 +1,9 @@
 import React from "react";
 import Section from "../components/Section";
 import SectionInfo from "../components/SectionInfo";
-import Partner from "../assets/logo/partner";
 import logo from "../contants/logo";
 import Image from "next/image";
+import Partner from "../contants/Partner";
 
 const Impact = () => {
   return (
@@ -42,9 +42,12 @@ const Impact = () => {
               Our PATNERS
             </p>
 
-            <div className="flex gap-10 items-center">
+            <div className="flex gap-10 items-center justify-center flex-wrap">
               <Partner />
-              <Image src={logo.partnerTwo} alt={"siwes"} className="w-32" />
+              <Image src={logo.partnerTwo} alt={"siwes"} className="w-40 mb-5" />
+              <Image src={logo.innovate} alt={"siwes"} className="w-40 mb-5" />
+              <Image src={logo.collective} alt={"siwes"} className="w-40 mb-5" />
+
             </div>
           </div>
         </div>

@@ -2,7 +2,6 @@
 
 import React from "react";
 import Section from "../components/Section";
-import SectionInfo from "../components/SectionInfo";
 import Link from "next/link";
 import image from "../contants/image";
 import Image from "next/image";
@@ -44,7 +43,7 @@ const Hero = () => {
       <Section>
         <div className="px-10 justify-between flex-col tablet:flex-row max-tablet-l:min-h-[calc(100vh-750px)] min-h-[calc(100vh-300px)]">
           <div className="max-w-lg max-m:w-md max-tablet-l:mt-10 ">
-            <div className={`space-y-3 max-tablet-l: my-16`}>
+            <div className={`space-y-3 max-tablet-l: mt-16`}>
               <AnimatePresence mode="wait">
                 <motion.span
                   key={wordIndex} // animate per word
@@ -52,14 +51,14 @@ const Hero = () => {
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="text-xl font-700 text-primary"
+                  className="text-5xl max-sm:text-3xl max-lg:4xl font-700 text-primary"
                 >
                   {displayText}
                   <span className="animate-pulse">|</span>
                 </motion.span>
               </AnimatePresence>
 
-              <h1 className="h1Heading">Local Impact, Global Tech Stack</h1>
+              <h1 className="font-700 text-3xl max-tablet-l:text-2xl max-mobile-l:text-xl text-dark">Local Impact, Global Tech Stack</h1>
 
               <p className="pDesc">
                 We architect scalable apps, build high-performance teams, and
@@ -67,9 +66,9 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="mb-10">
+            <div className="my-10">
               <Link
-                href={"/contact"}
+                href={'mailto:Engineering@enforcatech.com'}
                 className={
                   "px-9 py-3 font-bold rounded-full border-primary bg-primary text-white transition duration-100 ease-in"
                 }
@@ -82,7 +81,7 @@ const Hero = () => {
       </Section>
 
       <div className="absolute -top-10 right-0 max-tablet-l:hidden w-[800px] h-[800px]">
-        <Image src={image.hero} alt="hero" className="w-full h-full absolute bottom-10 right-0" />
+        <Image src={image.hero} width={700} height={300} alt="hero" className="absolute bottom-40 right-20" />
       </div>
     </div>
   );

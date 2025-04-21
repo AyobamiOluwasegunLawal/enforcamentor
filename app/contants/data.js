@@ -110,6 +110,6 @@ export const contact = [
         address2:   '7 King Edwards Road',
         number: "07392 807929, 08127575385",
 
-        email: 'Email: info@mentor-techies.com'
+        email: 'Email: Engineering@enforcatech.com '
     }
 ]

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Section from "../components/Section";
 import { contact } from "../contants/data";
@@ -15,7 +17,7 @@ const Footer = () => {
         >
           <div>
             <div>
-              <Image src={logo.enforca} alt={"logo"} className={"w-50 mb-6"} />
+              <Image src={logo.enforca} width={200} height={200} alt={"logo"} className="mb-5"/>
               <div className={"space-y-2"}>
                 <h2 className={"text-gray-400 font-bold "}>
                   Ideate, Build, Launch!
