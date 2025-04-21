@@ -45,8 +45,8 @@ const Impact = () => {
             <div className="flex gap-10 items-center justify-start flex-wrap">
               <Partner />
               <Image src={logo.partnerTwo} alt={"siwes"} className="w-40 mb-5" />
-              <Image src={logo.innovate} alt={"siwes"} className="w-40 mb-5" />
-              <Image src={logo.collective} alt={"siwes"} className="w-40 mb-5" />
+              <Image src={logo.innovate} alt={"siwes"} className="w-32 mb-5" />
+              <Image src={logo.collective} alt={"siwes"} className="w-32 mb-5" />
 
             </div>
           </div>
