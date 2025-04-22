@@ -18,7 +18,7 @@ const Header = () => {
     console.log(isSideBarOpen);
   };
   const handleNavBg = () => {
-    if (window.scrollY >= 90) {
+    if (window.scrollY >= 100) {
       setNavBg(true);
     } else {
       setNavBg(false);

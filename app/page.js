@@ -1,28 +1,34 @@
 import React from "react";
-import Section from "./components/Section";
-import Image from "next/image";
-import image from "./contants/image";
-import SectionInfo from "./components/SectionInfo";
-import Link from "next/link";
 import Services from "./section/Services";
 import Hero from "./section/Hero";
 import Success from "./section/Success";
 import Impact from "./section/Impact";
 import Testimonials from "./section/Testimonials";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <>
+    <section className="relative">
       <Hero />
 
       <Services />
 
-      <Success/>
+      <Success />
 
-      <Impact/>
+      <Impact />
 
-      <Testimonials/>
-    </>
+      <Testimonials />
+
+      <div className="cursor-pointer fixed right-0 bottom-20">
+        <a
+          href="https://wa.me/+97470640796"
+          target="_blank"
+        >
+          
+        <FaWhatsappSquare className="size-16 text-green-500" />
+        </a>
+      </div>
+    </section>
   );
 };
 
