@@ -43,7 +43,8 @@ const Header = () => {
         <nav className=" max-w-7xl mx-auto justify-between gap-10">
           <div className="items-center gap-10">
             <div className="max-mobile-s:w-28 max-mobile-m:w-32 max-mobile-l:w-36 max-tablet:w-40 tablet:w-40">
-              <Image src={logo.enforca} alt="Logo Enforca" className="w-full" />
+              <Link href={"/"}>
+              <Image src={logo.enforca} alt="Logo Enforca" className="w-full" /></Link>
             </div>
 
             <ul className="flex gap-10 max-tablet:hidden">

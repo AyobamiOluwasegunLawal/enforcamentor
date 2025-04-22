@@ -2,6 +2,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Header from "./section/Header";
 import Footer from "./section/Footer";
+import { FaWhatsappSquare } from "react-icons/fa";
 
 const montserrat = Montserrat({
   variable: "--font-mont",
@@ -17,11 +18,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.variable} font-400 antialiased`}
-      >
-        <Header/>
+      <body className={`${montserrat.variable} font-400 antialiased relative`}>
+        <Header />
         {children}
+        <div className="cursor-pointer fixed right-0 bottom-20">
+          <a href="https://wa.me/+97470640796" target="_blank">
+            <FaWhatsappSquare className="size-12 text-primary" />
+          </a>
+        </div>
         <Footer />
       </body>
     </html>
