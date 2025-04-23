@@ -39,10 +39,10 @@ const Hero = () => {
   }, [charIndex, wordIndex]);
 
   return (
-    <div className="relative max-tablet-l:min-h-[calc(100vh-650px)]">
+    <div className="flex flex-col tablet:flex-row tablet:items-center max-tablet-l:min-h-[calc(100vh-650px)]">
       <Section>
         <div className="px-10 justify-between flex-col tablet:flex-row max-tablet-l:min-h-[calc(100vh-750px)] min-h-[calc(100vh-300px)]">
-          <div className="max-w-lg max-m:w-md max-tablet-l:mt-10 ">
+          <div className="max-w-lg max-m:w-md max-tablet-l:mt-10 mx-auto">
             <div className={`space-y-3 max-tablet-l: mt-16`}>
               <AnimatePresence mode="wait">
                 <motion.span
@@ -58,7 +58,9 @@ const Hero = () => {
                 </motion.span>
               </AnimatePresence>
 
-              <h1 className="font-700 text-3xl max-tablet-l:text-2xl max-mobile-l:text-xl text-dark">Local Impact, Global Tech Stack</h1>
+              <h1 className="font-700 text-3xl max-tablet-l:text-2xl max-mobile-l:text-xl text-dark">
+                Local Impact, Global Tech Stack
+              </h1>
 
               <p className="pDesc">
                 We architect scalable apps, build high-performance teams, and
@@ -68,7 +70,7 @@ const Hero = () => {
 
             <div className="my-10">
               <Link
-                href={'mailto:Engineering@enforcatech.com'}
+                href={"mailto:Engineering@enforcatech.com"}
                 className={
                   "px-9 py-3 font-bold rounded-full border-primary bg-primary text-white transition duration-100 ease-in"
                 }
@@ -80,9 +82,13 @@ const Hero = () => {
         </div>
       </Section>
 
-      <div className="absolute -top-10 right-0 max-tablet-l:hidden w-[800px] h-[800px]">
-        <Image src={image.hero} width={700} height={300} alt="hero" className="absolute bottom-40 right-20" />
-      </div>
+      <Image
+        src={image.hero}
+        width={700}
+        height={300}
+        alt="hero"
+        className="tablet:w-[350px] tablet-l:w-[450px] lg:w-[600px] xl:w-[700px]"
+      />
     </div>
   );
 };
