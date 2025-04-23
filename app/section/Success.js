@@ -56,7 +56,7 @@ const Success = () => {
               </p>
             </div>
 
-            <ul className={"flex flex-col gap-5 mb-20"}>
+            <ul className={"flex flex-col gap-5"}>
               <div className={"space-x-3 items-center"}>
                 <span className={"blue-box"} />
                 <li className={"text-gray-500 text-md"}>
