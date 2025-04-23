@@ -18,7 +18,7 @@ const Header = () => {
     console.log(isSideBarOpen);
   };
   const handleNavBg = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 1) {
       setNavBg(true);
     } else {
       setNavBg(false);
@@ -67,18 +67,18 @@ const Header = () => {
             transition={{ duration: 0.3 }}
             animate={{ width: 200 }}
             className={
-              " absolute top-0 left-0  max-xl:w-[90%] max-sm:w-[60%] h-screen bg-white z-50 gap-10 md:hidden shadow-xl pt-3 px-5"
+              " absolute top-0 left-0  max-xl:w-[90%] max-sm:w-[60%] h-screen bg-primary z-50 gap-10 md:hidden shadow-xl pt-3 px-5"
             }
           >
             <div className={"right-0 mb-5"}>
               <RxCross2
-                className={"size-6 text-black font-bold"}
+                className={"size-6 text-white font-bold"}
                 onClick={() => setIsSideBarOpen(false)}
               />
             </div>
             <ul className={"text-black flex flex-col gap-5 font-semibold mb-5"}>
               {navLinks.map((link) => (
-                <div key={link.id}>
+                <div key={link.id} className="text-white">
                   <Link
                     onClick={() => setIsSideBarOpen(false)}
                     href={link.href}
