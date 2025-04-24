@@ -40,35 +40,30 @@ export const services = [
         id: nanoid(),
         icon: image.ai,
         title: "AI/Machine Learning Product",
-        description: "",
     },
 
     {
         id: nanoid(),
         icon: image.agric,
         title: "Agritech",
-        description: "",
     },
 
     {
         id: nanoid(),
         icon: image.logistic,
         title: "Logistic",
-        description: "",
     },
 
     {
         id: nanoid(),
         icon: image.fintech,
         title: "Fintech",
-        description: ""
     },
 
     {
         id: nanoid(),
         icon: image.mvp,
-        title: "Other scalabe MVP's",
-        description: ""
+        title: "Other scalabe MVPs",
     }
 ]
 

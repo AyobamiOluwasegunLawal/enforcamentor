@@ -26,10 +26,6 @@ const Services = () => {
               <Image src={item.icon} alt={item.title} />
 
               <h2 className={"font-bold text-xl mt-5"}>{item.title}</h2>
-
-              <p className={`text-gray-400 flex items-center gap-4`}>
-                {item.description}
-              </p>
             </li>
           ))}
         </ul>

@@ -24,7 +24,7 @@ const Process = () => {
   const [realIndex, setRealIndex] = useState(0);
 
   return (
-    <div className="py-10 flex flex-col md:flex-row gap-10 px-10 max-mobile-s:h-[3000px] max-mobile-m:h-[2500px] max-mobile-xl:h-[1800px] mobile-xl:h-screen max-tablet-l:h-[2000px]">
+    <div className="py-10 flex flex-col md:flex-row gap-10 px-10 h-[1800px] md:h-[1200px] lg:h-screen">
       <div className="basis-1/3 space-y-5">
         <h2 className="h2Heading">Our development process</h2>
         <p>Strategy, planning, development, testing, deployment</p>
