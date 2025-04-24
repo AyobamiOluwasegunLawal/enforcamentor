@@ -52,21 +52,23 @@ const Process = () => {
           enabled: false
         }}
         modules={[Pagination, Autoplay, Mousewheel, Keyboard]}
-        mousewheel={{ forceToAxis: true }}
+        // mousewheel={{ forceToAxis: true }}
         keyboard={{ enabled: true }}
         className="mySwiper max-w-xl"
       >
         {process.map((item, idx) => (
           <SwiperSlide
             key={item.id}
-            className={`h-full pt-5 pb-20 px-7 rounded-2xl transition-colors duration-300 ${realIndex  === idx ? 'bg-primary text-white' : 'border-primary border-2 bg-blue-100 blur-xs'} space-y-5 transition-colors ease-in-out duration-300`}
+            className={`h-full pt-5 pb-20 px-7 rounded-2xl transition-colors duration-300 ${realIndex  === idx ? 'bg-primary text-white' : 'border-primary border-2 bg-blue-100 opacity-50'} space-y-5 transition-colors ease-in-out duration-300`}
           >
+            <div className="mt-20 space-y-5">
             <h2 className={`h2Heading ${realIndex  === idx ? 'text-yellow-500' : '#f3f4f6'}`}>
               {idx + 1}. {item.title}
             </h2>
             <p>{item.desc}</p>
             {/* indicator column (aligns with bullets) */}
             <div className="indicator-bar w-3 transition-colors duration-300" />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

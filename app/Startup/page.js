@@ -27,14 +27,14 @@ const page = () => {
                experience, and scalable solutions.
             </p>
 
-            <div className={"mt-10 w-fit flex flex-col items-center space-y-2"}>
+            {/* <div className={"mt-10 w-fit flex flex-col items-center space-y-2"}>
               <p className={"text-primary font-bold text-left"}>
               Contact us to bring your ideas to reality
               </p>
               <FaArrowCircleDown
                 className={"animate-bounce text-primary size-6"}
               />
-            </div>
+            </div> */}
           </div>
 
           <div className={"basis-1/2 md:absolute md:-top-20 w-[300px] md:w-[400px] lg:w-[400px] right-30"}>

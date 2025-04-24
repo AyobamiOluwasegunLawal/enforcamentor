@@ -23,16 +23,18 @@ const page = () => {
           >
             <div className={"space-y-5 basis-1/2"}>
               <h1 className={"h1Heading text-yellow-400"}>
-                Empowering Startups to Build, Scale, and Succeed
+                Empowering Talent, Driving Innovation
               </h1>
 
               <p className={"text-gray-400 text-lg max-w-[50rem] mx-auto"}>
-                Enforca Technologies partners with startups to turn bold ideas
-                into powerful digital products—combining expert talent,
-                real-world experience, and scalable solutions.
+                Enforca Technologies is a global tech enabler committed to
+                developing Africa’s next generation of digital professionals. We
+                help individuals grow their skills through hands-on experience,
+                mentorship, and real-world projects—unlocking potential and
+                building future-ready talent.
               </p>
 
-              <div
+              {/* <div
                 className={"mt-10 w-fit flex flex-col items-center space-y-2"}
               >
                 <p className={"text-primary font-bold text-left"}>
@@ -41,10 +43,10 @@ const page = () => {
                 <FaArrowCircleDown
                   className={"animate-bounce text-primary size-6"}
                 />
-              </div>
+              </div> */}
             </div>
 
-            <div className={"basis-1/2 rounded-full overflow-hidden"}>
+            <div className={"basis-1/2 rounded-full overflow-hidden mt-10"}>
               <Image src={image.siwes} alt={"siwes picture"} />
             </div>
           </div>
@@ -60,7 +62,7 @@ const page = () => {
               className="hidden md:block"
             />
 
-            <div className=" pDesc text-sm font-semibold max-w-lg space-y-4">
+            <div className=" pDesc text-md font-semibold max-w-lg space-y-4 mt-4">
               <p>
                 A playing field is where talents are grilled to become
                 world-class tech experts.
@@ -143,12 +145,11 @@ const page = () => {
             Currently Accepting Developers
           </h2>
 
-            <CountdownTimer target={twentyEightDaysFromNow} />
+          <CountdownTimer target={twentyEightDaysFromNow} />
 
-         <h2 className="h2Heading text-white max-w-lg text-2xl md:text-3xl mx-auto mt-10">
-         Ready to begin? Send us an email via
-         Engineering@enforcatech.com
-         </h2>
+          <h2 className="h2Heading text-white max-w-lg text-2xl md:text-3xl mx-auto mt-10">
+            Ready to begin? Send us an email via Engineering@enforcatech.com
+          </h2>
         </div>
       </div>
     </div>
