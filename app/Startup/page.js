@@ -37,7 +37,7 @@ const page = () => {
             </div> */}
           </div>
 
-          <div className="w-[400px] md:w-[300px] lg:w-[400px] md:mx-auto mt-10">
+          <div className="w-[350px] md:w-[300px] lg:w-[400px] md:mx-auto mt-10">
             <Image src={image.phone2} alt={"siwes picture"}  className="w-full"/>
           </div>
         </div>
