@@ -20,11 +20,9 @@ import {
 } from "swiper/modules";
 import "../globals.css";
 
-
-
 const Process = () => {
-    const [realIndex, setRealIndex] = useState(0);
- 
+  const [realIndex, setRealIndex] = useState(0);
+
   return (
     <div className="py-10 flex flex-col md:flex-row gap-10 px-10 max-mobile-s:h-[3000px] max-mobile-m:h-[2500px] max-mobile-xl:h-[1800px] mobile-xl:h-screen max-tablet-l:h-[2000px]">
       <div className="basis-1/3 space-y-5">
@@ -40,16 +38,16 @@ const Process = () => {
         spaceBetween={30}
         loop={true}
         onSlideChange={(swiper) => {
-            console.log("Real Index:", swiper.realIndex); // Debug
-            setRealIndex(swiper.realIndex); // 🚀 Track REAL index (ignores loop duplicates)
-          }}
+          console.log("Real Index:", swiper.realIndex); // Debug
+          setRealIndex(swiper.realIndex); // 🚀 Track REAL index (ignores loop duplicates)
+        }}
         autoplay={{
           delay: 10000,
           disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
-          enabled: false
+          enabled: false,
         }}
         modules={[Pagination, Autoplay, Mousewheel, Keyboard]}
         // mousewheel={{ forceToAxis: true }}
@@ -59,15 +57,23 @@ const Process = () => {
         {process.map((item, idx) => (
           <SwiperSlide
             key={item.id}
-            className={`h-full pt-5 pb-20 px-7 rounded-2xl transition-colors duration-300 ${realIndex  === idx ? 'bg-primary text-white' : 'border-primary border-2 bg-blue-100 opacity-50'} space-y-5 transition-colors ease-in-out duration-300`}
+            className={`h-full pt-5 pb-20 px-7 rounded-2xl transition-colors duration-300 ${
+              realIndex === idx
+                ? "bg-primary text-white"
+                : "border-primary border-2 bg-blue-100 opacity-50"
+            } space-y-5 transition-colors ease-in-out duration-300`}
           >
-            <div className="mt-20 space-y-5">
-            <h2 className={`h2Heading ${realIndex  === idx ? 'text-yellow-500' : '#f3f4f6'}`}>
-              {idx + 1}. {item.title}
-            </h2>
-            <p>{item.desc}</p>
-            {/* indicator column (aligns with bullets) */}
-            <div className="indicator-bar w-3 transition-colors duration-300" />
+            <div className="space-y-5">
+              <h2
+                className={`h2Heading ${
+                  realIndex === idx ? "text-yellow-500" : "#f3f4f6"
+                }`}
+              >
+                {idx + 1}. {item.title}
+              </h2>
+              <p>{item.desc}</p>
+              {/* indicator column (aligns with bullets) */}
+              <div className="indicator-bar w-3 transition-colors duration-300" />
             </div>
           </SwiperSlide>
         ))}
