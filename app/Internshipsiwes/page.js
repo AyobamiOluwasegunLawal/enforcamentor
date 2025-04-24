@@ -79,7 +79,7 @@ const page = () => {
           </div>
 
           <div className="flex flex-col md:flex-row px-10 gap-20 mb-20">
-            <div className="w-[400px] mx-auto md:w-[800px] lg:w-[1000px]">
+            <div className="w-[300px] mx-auto md:w-[800px] lg:w-[1000px]">
               <Image src={image.bulb} alt={"siwes picture"}  className="w-full"/>
             </div>
 
