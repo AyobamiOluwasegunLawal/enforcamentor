@@ -1,10 +1,6 @@
 const { nanoid } = require("nanoid");
-import { FaPaintBrush } from "react-icons/fa";
-import { IoPersonSharp } from "react-icons/io5";
-import { FaPeopleGroup } from "react-icons/fa6";
-import { AiOutlineAudit } from "react-icons/ai";
-import { MdCloudDownload } from "react-icons/md";
-import { HiSquare3Stack3D } from "react-icons/hi2";
+import image from "../contants/image"
+
 
 export const navLinks = [
     {
@@ -42,35 +38,35 @@ export const navLinks = [
 export const services = [
     {
         id: nanoid(),
-        icon: <HiSquare3Stack3D className={'size-6'}/>,
+        icon: image.fintech,
         title: "AI/Machine Learning Product",
         description: "",
     },
 
     {
         id: nanoid(),
-        icon: <FaPaintBrush className={'size-6'}/>,
+        icon: image.agric,
         title: "Agritech",
         description: "",
     },
 
     {
         id: nanoid(),
-        icon: <IoPersonSharp className={'size-6'}/>,
+        icon: image.logistic,
         title: "Logistic",
         description: "",
     },
 
     {
         id: nanoid(),
-        icon: <FaPeopleGroup className={'size-6'}/>,
+        icon: image.fintech,
         title: "Fintech",
         description: ""
     },
 
     {
         id: nanoid(),
-        icon: <AiOutlineAudit className={'size-6'}/>,
+        icon: image.fintech,
         title: "Other scalabe MVP's",
         description: ""
     }

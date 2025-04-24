@@ -3,6 +3,7 @@ import Section from "../components/Section";
 import SectionInfo from "../components/SectionInfo";
 import { services } from "../contants/data";
 import { FaGreaterThan } from "react-icons/fa";
+import Image from "next/image";
 
 const Services = () => {
   return (
@@ -21,8 +22,8 @@ const Services = () => {
 
         <ul className="grid max-mobile-xl:grid-cols-1 mobile-xl:grid-cols-2 max-tablet-l:grid-cols-3 tablet-l:grid-cols-4 gap-10">
           {services.map((item) => (
-            <li key={item.id} className="px-10 space-y-3 py-6 shadow-lg rounded-lg">
-              <span>{item.icon}</span>
+            <li key={item.id} className="px-10 space-y-3 py-6 shadow-lg rounded-lg text-center">
+              <Image src={item.icon} alt={item.title} />
 
               <h2 className={"font-bold text-xl mt-5"}>{item.title}</h2>
 

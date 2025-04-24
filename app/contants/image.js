@@ -10,6 +10,9 @@ import process from "../assets/image/process.png";
 import phone2 from "../assets/image/phone2.png";
 import bulb from "../assets/image/bulb.png";
 import globe from "../assets/image/globe.png";
+import fintech  from "../assets/image/fintech.jpg";
+import agric from "../assets/image/agric.jpg";
+import logistic from "../assets/image/logistic.jpg";
 
 
 const image = {
@@ -24,6 +27,9 @@ const image = {
   process,
   phone2,
   bulb,
-  globe
+  globe,
+  fintech,
+  agric,
+  logistic
 };
 export default image;
