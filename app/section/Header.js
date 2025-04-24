@@ -78,14 +78,14 @@ const Header = () => {
             </div>
             <ul className={"text-black flex flex-col gap-5 font-semibold mb-5"}>
               {navLinks.map((link) => (
-                <div key={link.id} className="text-white">
                   <Link
+                  key={link.id}
                     onClick={() => setIsSideBarOpen(false)}
                     href={link.href}
+                    className="w-full border-b-2 border-blue-100 text-white hover:bg-gray-100 hover:text-primary transition-colors"
                   >
                     {link.title}
                   </Link>
-                </div>
               ))}
             </ul>
           </motion.div>
