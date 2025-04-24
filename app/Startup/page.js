@@ -3,18 +3,21 @@ import Section from "../components/Section";
 import { FaArrowCircleDown } from "react-icons/fa";
 import Image from "next/image";
 import image from "../contants/image";
+import Whyus from "../section/Whyus";
+import Process from "../section/Process";
 
 const page = () => {
   return (
-    <div className="px-10 py-20">
+    <div className="py-20">
+      <div className=" mb-30 mt-10">
       <Section>
         <div
           className={
-            "justify-between item max-tablet:flex-col"
+            "justify-between item max-tablet:flex-col px-10 relative"
           }
         >
           <div className={"space-y-5 basis-1/2"}>
-            <h1 className={"h1Heading"}>
+            <h1 className={"h1Heading text-yellow-400"}>
             Empowering Startups to Build, Scale, and Succeed
             </h1>
 
@@ -31,22 +34,25 @@ const page = () => {
               <FaArrowCircleDown
                 className={"animate-bounce text-primary size-6"}
               />
-              <a
-                href="mailto:Engineering@enforcatech.com"
-                className={
-                  "bg-primary w-fit py-2 px-4 text-white rounded-md"
-                }
-              >
-                Send Email
-              </a>
             </div>
           </div>
 
-          <div className={"basis-1/2"}>
-            <Image src={image.siwesTwo} alt={"siwes picture"} />
+          <div className={"basis-1/2 md:absolute md:-top-20 w-[300px] md:w-[400px] lg:w-[400px] right-30"}>
+            <Image src={image.phone2} alt={"siwes picture"}  className="w-full"/>
           </div>
         </div>
       </Section>
+      </div>
+
+      <Section>
+        <Whyus/>
+      </Section>
+
+      <div className="bg-gray-100">
+        <Section>
+        <Process/>
+        </Section>
+      </div>
     </div>
   );
 };

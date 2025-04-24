@@ -43,36 +43,36 @@ export const services = [
     {
         id: nanoid(),
         icon: <HiSquare3Stack3D className={'size-6'}/>,
-        title: "Ai/machine learning product",
-        description: "Web/App software development",
+        title: "AI/Machine Learning Product",
+        description: "",
     },
 
     {
         id: nanoid(),
         icon: <FaPaintBrush className={'size-6'}/>,
-        title: "Agritech product",
-        description: "MVPs you don't throw away",
+        title: "Agritech",
+        description: "",
     },
 
     {
         id: nanoid(),
         icon: <IoPersonSharp className={'size-6'}/>,
-        title: "Logistic product",
-        description: "Automated testing & DevOps",
+        title: "Logistic",
+        description: "",
     },
 
     {
         id: nanoid(),
         icon: <FaPeopleGroup className={'size-6'}/>,
-        title: "Fintech product",
-        description: "Manage teams of best talent"
+        title: "Fintech",
+        description: ""
     },
 
     {
         id: nanoid(),
         icon: <AiOutlineAudit className={'size-6'}/>,
         title: "Other scalabe MVP's",
-        description: "Proven audits & due dilligence"
+        description: ""
     }
 ]
 
@@ -112,4 +112,30 @@ export const contact = [
 
         email: 'Email: Engineering@enforcatech.com '
     }
+]
+
+export const process = [
+    {
+        id:nanoid(),
+        title: "Discovery",
+        desc:"The first step when The Dev Shop engages with a new client we take the time to bulld the foundation of a strong partnership. We get to know the system requirements and the user workflow and expertence. We will schedule an in depth assessment cfrunat the expectations are for your project. Our philosophy is to design, create, and deliver client solutions with integrity, trust and experience"
+    },
+
+    {
+        id:nanoid(),
+        title: "Architecture",
+        desc:"The first step when The Dev Shop engages with a new client we take the time to bulld the foundation of a strong partnership. We get to know the system requirements and the user workflow and expertence. We will schedule an in depth assessment cfrunat the expectations are for your project. Our philosophy is to design, create, and deliver client solutions with integrity, trust and experience"
+    },
+
+    {
+        id:nanoid(),
+        title: "Development",
+        desc:"The first step when The Dev Shop engages with a new client we take the time to bulld the foundation of a strong partnership. We get to know the system requirements and the user workflow and expertence. We will schedule an in depth assessment cfrunat the expectations are for your project. Our philosophy is to design, create, and deliver client solutions with integrity, trust and experience"
+    },
+
+    {
+        id:nanoid(),
+        title: "Release",
+        desc:"The first step when The Dev Shop engages with a new client we take the time to bulld the foundation of a strong partnership. We get to know the system requirements and the user workflow and expertence. We will schedule an in depth assessment cfrunat the expectations are for your project. Our philosophy is to design, create, and deliver client solutions with integrity, trust and experience"
+    },
 ]
