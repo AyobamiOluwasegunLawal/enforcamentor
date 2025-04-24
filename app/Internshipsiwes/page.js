@@ -145,7 +145,7 @@ const page = () => {
 
             <CountdownTimer target={twentyEightDaysFromNow} />
 
-         <h2 className="h2Heading text-white max-w-lg text-3xl mx-auto mt-10">
+         <h2 className="h2Heading text-white max-w-lg text-2xl md:text-3xl mx-auto mt-10">
          Ready to begin? Send us an email via
          Engineering@enforcatech.com
          </h2>
