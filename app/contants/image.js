@@ -14,6 +14,7 @@ import fintech  from "../assets/image/fintech.jpg";
 import agric from "../assets/image/agric.jpg";
 import logistic from "../assets/image/logistic.jpg";
 import ai from "../assets/image/ai.jpg";
+import mvp from "../assets/image/mvp.jpg";
 
 
 const image = {
@@ -32,6 +33,7 @@ const image = {
   fintech,
   agric,
   logistic,
-  ai
+  ai,
+  mvp
 };
 export default image;

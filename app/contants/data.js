@@ -66,7 +66,7 @@ export const services = [
 
     {
         id: nanoid(),
-        icon: image.fintech,
+        icon: image.mvp,
         title: "Other scalabe MVP's",
         description: ""
     }
