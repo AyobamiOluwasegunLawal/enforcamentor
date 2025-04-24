@@ -5,8 +5,15 @@ import image from "../contants/image";
 import Image from "next/image";
 import { GoArrowRight } from "react-icons/go";
 import logo from "../contants/logo";
+import CountdownTimer from "../components/CountdownTimer";
 
 const page = () => {
+  const twentyEightDaysFromNow = new Date(
+    Date.now() + 28 * 24 * 60 * 60 * 1000
+  ).toISOString();
+
+  const date = new Date();
+  console.log(date);
   return (
     <div className="py-20">
       <div className="bg-white mb-30 mt-10 md:mt-20">
@@ -80,7 +87,11 @@ const page = () => {
 
           <div className="flex flex-col md:flex-row px-10 gap-20 mb-20">
             <div className="w-[300px] mx-auto md:w-[800px] lg:w-[1000px]">
-              <Image src={image.bulb} alt={"siwes picture"}  className="w-full"/>
+              <Image
+                src={image.bulb}
+                alt={"siwes picture"}
+                className="w-full"
+              />
             </div>
 
             <div className="bg-blue-100 transition-colors ease-in-out hover:bg-primary py-16 px-10 rounded-3xl space-y-9">
@@ -122,10 +133,23 @@ const page = () => {
             </div>
           </div>
 
-          <div className="px-10 w-full">
-            <Image src={image.globe} alt={"siwes picture"} className="w-full"/>
+          <div className="px-10 w-full mb-20">
+            <Image src={image.globe} alt={"siwes picture"} className="w-full" />
           </div>
         </Section>
+
+        <div className="text-center bg-primary py-20 px-10">
+          <h2 className="h2Heading text-white">
+            Currently Accepting Developers
+          </h2>
+
+            <CountdownTimer target={twentyEightDaysFromNow} />
+
+         <h2 className="h2Heading text-white max-w-lg text-3xl mx-auto mt-10">
+         Ready to begin? Send us an email via
+         Engineering@enforcatech.com
+         </h2>
+        </div>
       </div>
     </div>
   );
