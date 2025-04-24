@@ -41,7 +41,7 @@ const CountdownTimer = ({ target = "2025-01-01T00:00:00" }) => {
   );
 
   return (
-    <div className="max-w-sm mx-auto mt-8 p-6 bg-gray-50 rounded-2xl">
+    <div className="max-w-sm mx-auto mt-8 px-4 py-4 bg-gray-50 rounded-2xl">
       <div className="flex justify-between space-x-2">
       <Box label="Days" value={timeLeft.days} />
       <Box label="Hours" value={timeLeft.hours} />

@@ -138,7 +138,7 @@ const page = () => {
           </div>
         </Section>
 
-        <div className="text-center bg-primary py-20 px-10">
+        <div className="text-center bg-primary py-20 px-8">
           <h2 className="h2Heading text-white">
             Currently Accepting Developers
           </h2>
