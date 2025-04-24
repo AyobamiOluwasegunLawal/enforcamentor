@@ -38,7 +38,7 @@ export const navLinks = [
 export const services = [
     {
         id: nanoid(),
-        icon: image.fintech,
+        icon: image.ai,
         title: "AI/Machine Learning Product",
         description: "",
     },

@@ -13,6 +13,7 @@ import globe from "../assets/image/globe.png";
 import fintech  from "../assets/image/fintech.jpg";
 import agric from "../assets/image/agric.jpg";
 import logistic from "../assets/image/logistic.jpg";
+import ai from "../assets/image/ai.jpg";
 
 
 const image = {
@@ -30,6 +31,7 @@ const image = {
   globe,
   fintech,
   agric,
-  logistic
+  logistic,
+  ai
 };
 export default image;
