@@ -39,7 +39,7 @@ const Impact = () => {
 
           <div>
             <p className={"text-primary mb-10 font-bold"}>
-              Our Patners
+              Our Partners
             </p>
 
             <div className="flex gap-10 items-center justify-start flex-wrap">
