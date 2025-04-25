@@ -58,7 +58,7 @@ const Header = () => {
 
             <ul className="flex gap-10 max-tablet:hidden">
               {navLinks.map((link) => (
-                <Link onClick={() => handleActive(link.title)} target={link?.target} href={link.href} key={link.id} className={`${isActive === link.title ? "text-primary pb-1 border-b-3 border-b-primary" : ""} font-semibold`}>
+                <Link target={link?.target} href={link.href} key={link.id} className="font-semibold">
                   {link.title}
                 </Link>
               ))}
