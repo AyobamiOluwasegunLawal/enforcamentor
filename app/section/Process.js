@@ -26,8 +26,8 @@ const Process = () => {
   return (
     <div className="py-10 flex flex-col md:flex-row gap-10 px-10 h-[1800px] md:h-[1200px] lg:h-screen">
       <div className="basis-1/3 space-y-5">
-        <h2 className="h2Heading">Our development process</h2>
-        <p>Strategy, planning, development, testing, deployment</p>
+        <h2 className="h2Heading text-primary">Our development process</h2>
+        <p className="text-gray-400 text-lg"> Strategy, planning, development, testing, deployment</p>
 
         <Image src={image.process} alt="process" />
       </div>

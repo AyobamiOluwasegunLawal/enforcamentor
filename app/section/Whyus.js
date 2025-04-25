@@ -18,9 +18,9 @@ const Whyus = () => {
 
       <div className="basis-2/3">
         <div className="space-y-7">
-          <h1 className="h1Heading">Why US</h1>
+          <h1 className="h1Heading text-primary">Why US</h1>
           <div>
-            <div className="space-y-3">
+            <div className="space-y-3 text-gray-400 text-lg">
               <p>
                 We are a deV Shop with a wide area of African tech talents. We
                 build world-class solutions for the world. We are backed by 54

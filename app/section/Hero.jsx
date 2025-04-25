@@ -58,7 +58,7 @@ const Hero = () => {
                 </motion.span>
               </AnimatePresence>
 
-              <h1 className="font-700 text-3xl max-tablet-l:text-2xl max-mobile-l:text-xl text-dark">
+              <h1 className="font-700 text-3xl max-tablet-l:text-2xl max-mobile-l:text-xl text-dark mt-3 md:mt-5">
                 Local Impact, Global Tech Stack
               </h1>
 

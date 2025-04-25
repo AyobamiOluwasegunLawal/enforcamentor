@@ -17,7 +17,7 @@ const page = () => {
           }
         >
           <div className={"space-y-5"}>
-            <h1 className={"h1Heading text-yellow-400 md:max-w-sm lg:max-w-xl"}>
+            <h1 className={"h1Heading text-primary md:max-w-sm lg:max-w-xl"}>
             Empowering Startups to Build, Scale, and Succeed
             </h1>
 

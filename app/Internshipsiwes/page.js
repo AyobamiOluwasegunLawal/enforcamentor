@@ -22,7 +22,7 @@ const page = () => {
             className={"justify-between item max-tablet:flex-col px-10 mb-20"}
           >
             <div className={"space-y-5 basis-1/2"}>
-              <h1 className={"h1Heading text-yellow-400"}>
+              <h1 className={"h1Heading text-primary"}>
                 Empowering Talent, Driving Innovation
               </h1>
 
@@ -54,7 +54,7 @@ const page = () => {
 
         <Section>
           <div className="flex flex-col md:flex-row  md:justify-between md:items-center px-10 py-10 mb-20">
-            <h2 className="h2Heading">Techies Lab</h2>
+            <h2 className="h2Heading text-primary">Techies Lab</h2>
 
             <Image
               src={logo.arrow}
@@ -96,8 +96,8 @@ const page = () => {
               />
             </div>
 
-            <div className="bg-blue-100 transition-colors ease-in-out hover:bg-primary py-16 px-10 rounded-3xl space-y-9">
-              <h2 className="h2Heading">The Process</h2>
+            <div className="bg-blue-100 transition-colors ease-in-out hover:bg-white hover:shadow-2xl py-16 px-10 rounded-3xl space-y-9">
+              <h2 className="h2Heading text-primary">The Process</h2>
 
               <ul>
                 <li className="flex gap-3 items-center">
