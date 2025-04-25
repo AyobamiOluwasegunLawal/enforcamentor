@@ -26,12 +26,9 @@ const Header = () => {
   };
 
   const handleActive = (title) => {
-    if (isActive === "AI job search") {
-      setIsActive("Home");
-    } else {
-      setIsActive(title);
-    }
+    setIsActive(title);
   };
+
 
   useEffect(() => {
     window.addEventListener("scroll", handleNavBg);
@@ -41,7 +38,9 @@ const Header = () => {
     };
   }, []);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+
+  }, [])
 
   return (
     <section>
@@ -54,27 +53,12 @@ const Header = () => {
           <div className="items-center gap-10">
             <div className="max-mobile-s:w-28 max-mobile-m:w-32 max-mobile-l:w-36 max-tablet:w-40 tablet:w-40">
               <Link href={"/"}>
-                <Image
-                  src={logo.enforca}
-                  alt="Logo Enforca"
-                  className="w-full"
-                />
-              </Link>
+              <Image src={logo.enforca} alt="Logo Enforca" className="w-full" /></Link>
             </div>
 
             <ul className="flex gap-10 max-tablet:hidden">
               {navLinks.map((link) => (
-                <Link
-                  onClick={() => handleActive(link.title)}
-                  target={link?.target}
-                  href={link.href}
-                  key={link.id}
-                  className={`${
-                    isActive === link.title
-                      ? "text-primary pb-1 border-b-3 border-b-primary"
-                      : ""
-                  } font-semibold`}
-                >
+                <Link onClick={() => handleActive(link.title)} target={link?.target} href={link.href} key={link.id} className={`${isActive === link.title ? "text-primary pb-1 border-b-3 border-b-primary" : ""} font-semibold`}>
                   {link.title}
                 </Link>
               ))}
@@ -103,14 +87,14 @@ const Header = () => {
             </div>
             <ul className={"text-black flex flex-col gap-5 font-semibold mb-5"}>
               {navLinks.map((link) => (
-                <Link
+                  <Link
                   key={link.id}
-                  onClick={() => setIsSideBarOpen(false)}
-                  href={link.href}
-                  className="w-full border-b-2 border-blue-100 text-white hover:bg-gray-100 hover:text-primary transition-colors"
-                >
-                  {link.title}
-                </Link>
+                    onClick={() => setIsSideBarOpen(false)}
+                    href={link.href}
+                    className="w-full border-b-2 border-blue-100 text-white hover:bg-gray-100 hover:text-primary transition-colors"
+                  >
+                    {link.title}
+                  </Link>
               ))}
             </ul>
           </motion.div>
