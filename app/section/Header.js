@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useEffect } from "react";
-import Section from "../components/Section";
 import logo from "../contants/logo";
 import Image from "next/image";
 import { navLinks, services } from "../contants/data";
@@ -12,6 +11,7 @@ import { RxCross2 } from "react-icons/rx";
 const Header = () => {
   const [isSideBarOpen, setIsSideBarOpen] = React.useState(false);
   const [navBg, setNavBg] = React.useState(false);
+  const [isActive, setIsActive] = React.useState("Home");
 
   const handleSidebarOpen = () => {
     setIsSideBarOpen((prev) => !prev);
@@ -23,6 +23,10 @@ const Header = () => {
     } else {
       setNavBg(false);
     }
+  };
+
+  const handleActive = (title) => {
+    setIsActive(title);
   };
 
   useEffect(() => {
@@ -49,7 +53,7 @@ const Header = () => {
 
             <ul className="flex gap-10 max-tablet:hidden">
               {navLinks.map((link) => (
-                <Link target={link?.target} href={link.href} key={link.id}>
+                <Link onClick={() => handleActive(link.title)} target={link?.target} href={link.href} key={link.id} className={`${isActive === link.title ? "text-primary pb-1 border-b-3 border-b-primary" : ""} font-semibold`}>
                   {link.title}
                 </Link>
               ))}
