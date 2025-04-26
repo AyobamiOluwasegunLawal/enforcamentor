@@ -1,22 +1,11 @@
-"use client";
 
 import React from "react";
 import Section from "../components/Section";
-import { FaArrowCircleDown } from "react-icons/fa";
 import Image from "next/image";
 import image from "../contants/image";
 import Whyus from "../section/Whyus";
 import Process from "../section/Process";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
-// import required modules
-import { Autoplay } from "swiper/modules";
-import logo from "../contants/logo";
 
 const page = () => {
   return (
@@ -70,35 +59,6 @@ const page = () => {
         </Section>
       </div>
 
-      <div className="mt-20 space-y-10 px-10">
-            <p className="pTitle text-center text-primary">Clients that trust us</p>
-
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          loop={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Autoplay]}
-          className="mySwiper max-w-sm"
-        >
-          <SwiperSlide>
-            <Image src={logo.buck} alt={"siwes picture"} className="w-20 h-fit" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image src={logo.stav} alt={"siwes picture"} className="size-6" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Image src={logo.wealth} alt={"siwes picture"} className="w-20 h-fit" />
-          </SwiperSlide>
-        </Swiper>
-      </div>
     </div>
   );
 };
