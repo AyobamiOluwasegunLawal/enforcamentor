@@ -100,7 +100,7 @@ export const contact = [
         address: '2nd Floor College House',
         address2:   '17 King Edwards Road',
         address3: 'Ruislip London HA4 7AE, United Kingdom',
-        number: "+447392 807929, 07392 807929",
+        number: "+44 7392 807929",
 
         email: 'Email: Engineering@enforcatech.com '
     }
