@@ -51,6 +51,7 @@
   }
 } */
 
+
 @layer components{
   .pTitle{
     @apply font-700 text-primary max-tablet-l:text-lg text-lg max-mobile-l:text-sm
