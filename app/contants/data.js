@@ -39,7 +39,7 @@ export const services = [
     {
         id: nanoid(),
         icon: image.ai,
-        title: "AI/Machine Learning Product",
+        title: "AI/Machine Learning Products",
     },
 
     {
@@ -51,7 +51,7 @@ export const services = [
     {
         id: nanoid(),
         icon: image.logistic,
-        title: "Logistic",
+        title: "Logistics",
     },
 
     {
@@ -98,8 +98,9 @@ export const contact = [
         id:nanoid(),
         header: 'Contact',
         address: '2nd Floor College House',
-        address2:   '7 King Edwards Road',
-        number: "07392 807929, 08127575385",
+        address2:   '17 King Edwards Road',
+        address3: 'Ruislip London HA4 7AE, United Kingdom',
+        number: "+447392 807929, 07392 807929",
 
         email: 'Email: Engineering@enforcatech.com '
     }

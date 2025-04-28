@@ -38,6 +38,7 @@ const Footer = () => {
                 <div className={"space-y-1 "}>
                   <p>{c.address}</p>
                   <p>{c.address2}</p>
+                  <p>{c.address3}</p>
                   <p>{c.number}</p>
                   <p>{c.open}</p>
                   <p>{c.email}</p>
