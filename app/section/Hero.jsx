@@ -84,10 +84,8 @@ const Hero = () => {
 
       <Image
         src={image.hero}
-        width={700}
-        height={300}
         alt="hero"
-        className="tablet:w-[350px] tablet-l:w-[450px] lg:w-[600px] xl:w-[700px]"
+        className="tablet:w-[350px] tablet-l:w-[450px] lg:w-[900px] xl:w-[700px]"
       />
     </div>
   );
