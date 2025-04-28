@@ -37,7 +37,7 @@ const Whyus = () => {
             </li>
             <li>
               <IoCheckmarkDoneSharp className="size-5 inline-block" />{" "}
-              White-labeled fintech solutions for banks
+              MVP solutions
             </li>
             <li>
               <IoCheckmarkDoneSharp className="size-5 inline-block" /> AI
