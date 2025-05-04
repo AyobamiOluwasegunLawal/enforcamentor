@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, {useState } from "react";
 import image from "../contants/image";
 import { process } from "../contants/data";
 
@@ -24,7 +24,7 @@ const Process = () => {
   const [realIndex, setRealIndex] = useState(0);
 
   return (
-    <div className="py-10 flex flex-col md:flex-row gap-10 px-10 h-[2500px] max-mobile-m:h-[2600px] max-tablet:h-[1800px] max-mobile-l:h-[2300px] md:h-[1200px] lg:h-[1300px] xl:h-[1200px] ">
+    <div className="py-10 flex flex-col md:flex-row gap-10 px-10 h-[2500px] max-mobile-m:h-[2600px] max-tablet:h-[1800px] max-mobile-l:h-[2300px] md:h-[1200px] lg:h-[1200px] xl:h-[1200px] ">
       <div className="basis-1/3 space-y-5">
         <h2 className="h2Heading text-primary">Our development process</h2>
         <p className="text-gray-400 text-lg"> Strategy, planning, development, testing, deployment</p>

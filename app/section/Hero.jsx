@@ -8,7 +8,11 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const words = ["Ideate", "Build", "Launch"];
+const words = [
+  "Scalable solution for start ups",
+  "Gain Practical  Tech Experience",
+  "Learn a new tech stack.",
+];
 
 const Hero = () => {
   const [wordIndex, setWordIndex] = useState(0);
@@ -63,8 +67,8 @@ const Hero = () => {
               </h1>
 
               <p className="pDesc">
-                We architect scalable apps, build high-performance teams, and
-                accelerate product growth.
+                We architect scalable apps, powered by high-performance African
+                teams.
               </p>
             </div>
 
@@ -79,14 +83,16 @@ const Hero = () => {
               </Link>
             </div>
           </div>
+
+          <div className="w-[350px] tablet:mt-16 tablet:w-[300px] tablet-l:w-[300px] lg:w-[400px] xl:w-[500px] rounded-3xl overflow-hidden">
+            <Image
+              src={image.hero}
+              alt="hero"
+              className="w-full hover:scale-90 transition duration-100 ease-in rounded-2xl"
+            />
+          </div>
         </div>
       </Section>
-
-      <Image
-        src={image.hero}
-        alt="hero"
-        className="tablet:w-[350px] tablet-l:w-[450px] lg:w-[900px] xl:w-[700px]"
-      />
     </div>
   );
 };

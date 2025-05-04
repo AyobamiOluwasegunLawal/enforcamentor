@@ -2,8 +2,8 @@ import React from "react";
 import Section from "../components/Section";
 import SectionInfo from "../components/SectionInfo";
 import { services } from "../contants/data";
-import { FaGreaterThan } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const Services = () => {
   return (
@@ -20,13 +20,13 @@ const Services = () => {
           />
         </div>
 
-        <ul className="grid max-mobile-xl:grid-cols-1 mobile-xl:grid-cols-2 max-tablet-l:grid-cols-3 tablet-l:grid-cols-4 gap-10">
+        <ul className="grid max-mobile-xl:grid-cols-1 mobile-xl:grid-cols-2 max-tablet-l:grid-cols-3 tablet-l:grid-cols-4 gap-10 ">
           {services.map((item) => (
-            <li key={item.id} className="px-10 space-y-3 py-6 shadow-lg rounded-lg text-center">
+            <Link href={item.href} key={item.id} className="px-10 space-y-3 py-6 shadow-lg rounded-lg text-center cursor-pointer hover:text-primary hover:bg-primary/10 transition duration-300 ease-in-out">
               <Image src={item.icon} alt={item.title} />
 
               <h2 className={"font-bold text-xl mt-5"}>{item.title}</h2>
-            </li>
+            </Link>
           ))}
         </ul>
       </Section>
