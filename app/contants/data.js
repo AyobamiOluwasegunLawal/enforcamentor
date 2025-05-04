@@ -10,13 +10,6 @@ export const navLinks = [
 
   {
     id: nanoid(),
-    title: "AI job search",
-    href: "https://enforca.co/",
-    target: "_blank",
-  },
-
-  {
-    id: nanoid(),
     title: "Learn more",
     href: "/MoreInfo",
   },
@@ -41,14 +34,14 @@ export const services = [
     id: nanoid(),
     icon: image.logistic,
     title: "Enforca Learn",
-    href: "/Startup",
+    href: "/ComingSoon",
   },
 
   {
     id: nanoid(),
     icon: image.ai,
     title: "Enforca AI (Getrecruikd)",
-    href: "/Startup",
+    href: "https://enforca.co/",
   },
 ];
 

@@ -79,7 +79,7 @@ const Header = () => {
               <FaLinkedin />
             </Link>
 
-            <Link target="_blank" href="https://twitter.com/enforca_co" className="hover:text-primary/50 transition duration-100 ease-in-out">
+            <Link target="_blank" href="https://x.com/MentorTechies?t=zcz6uW7-t5GTLlqcJOiOAQ&s=09" className="hover:text-primary/50 transition duration-100 ease-in-out">
               <FaXTwitter />
             </Link>
           </div>
