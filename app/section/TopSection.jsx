@@ -6,7 +6,7 @@ const TopSection = () => {
     <div className="pt-32">
       <Section>
         <div className="min-h-96 bg-primary p-5 flex items-center justify-center">
-          <h1 className="h1Heading text-white text-center">
+          <h1 className="h1Heading text-4xl md:text-6xl text-white text-center">
             Championing African talents to create world class tech products.
           </h1>
         </div>
