@@ -86,7 +86,7 @@ const Hero = () => {
 
           <div className="w-[350px] tablet:mt-16 tablet:w-[300px] tablet-l:w-[300px] lg:w-[400px] xl:w-[500px] rounded-3xl overflow-hidden">
             <Image
-              src={image.hero}
+              src={image.hero2}
               alt="hero"
               className="w-full hover:scale-90 transition duration-100 ease-in rounded-2xl"
             />

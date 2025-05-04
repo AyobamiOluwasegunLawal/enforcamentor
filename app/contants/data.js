@@ -18,28 +18,28 @@ export const navLinks = [
 export const services = [
   {
     id: nanoid(),
-    icon: image.fintech,
+    icon: image.enforcaBuild,
     title: "Enforca Build",
     href: "/Startup",
   },
 
   {
     id: nanoid(),
-    icon: image.agric,
+    icon: image.enforcaX,
     title: "Enforca X",
     href: "/Internshipsiwes",
   },
 
   {
     id: nanoid(),
-    icon: image.logistic,
+    icon: image.enforcaLearn,
     title: "Enforca Learn",
     href: "/ComingSoon",
   },
 
   {
     id: nanoid(),
-    icon: image.ai,
+    icon: image.enforcaAi,
     title: "Enforca AI (Getrecruikd)",
     href: "https://enforca.co/",
   },

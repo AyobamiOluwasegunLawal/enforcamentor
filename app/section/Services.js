@@ -12,7 +12,6 @@ const Services = () => {
         <div className="py-20 flex-center max-w-xl mx-auto text-center">
           <SectionInfo
             sectionPTitle={"What we do"}
-            sectionHead={"Scalable Code, Solid Results."}
             sectionDesc={
               "We build fast, reliable solutions with smart architecture and top-tier dev teams."
             }
