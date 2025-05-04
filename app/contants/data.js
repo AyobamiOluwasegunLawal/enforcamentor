@@ -10,18 +10,6 @@ export const navLinks = [
 
   {
     id: nanoid(),
-    title: "Startup",
-    href: "/Startup",
-  },
-
-  {
-    id: nanoid(),
-    title: "Internship/Siwes",
-    href: "/Internshipsiwes",
-  },
-
-  {
-    id: nanoid(),
     title: "AI job search",
     href: "https://enforca.co/",
     target: "_blank",
@@ -46,7 +34,7 @@ export const services = [
     id: nanoid(),
     icon: image.agric,
     title: "Enforca X",
-    href: "/Startup",
+    href: "/Internshipsiwes",
   },
 
   {
