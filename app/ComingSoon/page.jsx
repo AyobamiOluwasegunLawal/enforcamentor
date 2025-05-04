@@ -9,7 +9,6 @@ const ComingSoon = () => {
 
       <p>
         We're working hard behind the scenes to bring you something amazing.
-        Stay tuned—it's worth the wait!
       </p>
 
       <p className={"flex gap-2 font-semibold group animate-pulse"}>
