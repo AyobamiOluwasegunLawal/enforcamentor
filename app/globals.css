@@ -54,7 +54,7 @@
 
 @layer components{
   .pTitle{
-    @apply font-700 text-primary max-tablet-l:text-lg text-lg max-mobile-l:text-sm
+    @apply font-700 text-primary text-2xl md:text-3xl
   }
 
   .h1Heading{
