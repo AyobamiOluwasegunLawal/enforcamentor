@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <section>
       <TopSection/>
-      
-      <Hero />
+
+      {/* <Hero /> */}
 
       <Services />
 
