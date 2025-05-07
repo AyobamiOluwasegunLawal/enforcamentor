@@ -27,15 +27,6 @@ const page = () => {
                 into powerful digital products—combining expert talent,
                 real-world experience, and scalable solutions.
               </p>
-
-              {/* <div className={"mt-10 w-fit flex flex-col items-center space-y-2"}>
-              <p className={"text-primary font-bold text-left"}>
-              Contact us to bring your ideas to reality
-              </p>
-              <FaArrowCircleDown
-                className={"animate-bounce text-primary size-6"}
-              />
-            </div> */}
             </div>
 
             <div className="w-[350px] md:w-[300px] lg:w-[400px] md:mx-auto mt-10">

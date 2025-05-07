@@ -13,7 +13,6 @@ import { FaXTwitter } from "react-icons/fa6";
 const Header = () => {
   const [isSideBarOpen, setIsSideBarOpen] = React.useState(false);
   const [navBg, setNavBg] = React.useState(false);
-  const [isActive, setIsActive] = React.useState("Home");
 
   const handleSidebarOpen = () => {
     setIsSideBarOpen((prev) => !prev);
@@ -25,10 +24,6 @@ const Header = () => {
     } else {
       setNavBg(false);
     }
-  };
-
-  const handleActive = (title) => {
-    setIsActive(title);
   };
 
   useEffect(() => {

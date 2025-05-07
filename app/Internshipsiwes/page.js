@@ -1,6 +1,5 @@
 import React from "react";
 import Section from "../components/Section";
-import { FaArrowCircleDown } from "react-icons/fa";
 import image from "../contants/image";
 import Image from "next/image";
 import { GoArrowRight } from "react-icons/go";
@@ -33,17 +32,6 @@ const page = () => {
                 mentorship, and real-world projects—unlocking potential and
                 building future-ready talent.
               </p>
-
-              {/* <div
-                className={"mt-10 w-fit flex flex-col items-center space-y-2"}
-              >
-                <p className={"text-primary font-bold text-left"}>
-                  Contact us to bring your ideas to reality
-                </p>
-                <FaArrowCircleDown
-                  className={"animate-bounce text-primary size-6"}
-                />
-              </div> */}
             </div>
 
             <div className={"basis-1/2 rounded-full overflow-hidden mt-10"}>

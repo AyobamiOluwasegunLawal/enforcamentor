@@ -1,6 +1,6 @@
 import React from "react";
 
-const SectionInfo = ({sectionPTitle, sectionHead, sectionDesc, style}) => {
+const SectionInfo = ({sectionPTitle, sectionHead, sectionDesc}) => {
   return (
     <div className={`space-y-5`}>
       <p className="pTitle">{sectionPTitle}</p>

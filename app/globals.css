@@ -45,12 +45,6 @@
 
 }
 
-/* @layer base{
-  body{
-    @apply font-mont font-400
-  }
-} */
-
 
 @layer components{
   .pTitle{

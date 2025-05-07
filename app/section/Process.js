@@ -12,11 +12,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import {
   Autoplay,
-  FreeMode,
   Keyboard,
   Mousewheel,
   Pagination,
-  Scrollbar,
 } from "swiper/modules";
 import "../globals.css";
 
