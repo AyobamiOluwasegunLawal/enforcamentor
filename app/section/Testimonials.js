@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Pagination} from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const Testimonials = () => {
   return (
@@ -21,9 +21,9 @@ const Testimonials = () => {
       <Section>
         <div className="flex-center text-center">
           <SectionInfo
-            sectionPTitle={"Don't take it from us"}
-            sectionHead={"What our clients say"}
-            style={"h2Heading"}
+            // sectionPTitle={"Don't take it from us"}
+            sectionHead={"Here is what our applicants are saying about us"}
+            style={"text-2xl pTitle text-primary"}
           />
         </div>
 
